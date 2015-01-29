@@ -31,7 +31,7 @@ extern vector<Variable> var_table;
 
 void set_value(string s, double d);  // set the Variable named s to d
 
-//自己定义一个Token_stream类型,里面包含着一个名为buffer的储存空间和一个判断buffer是否为空的指针
+//create a class named Token_stream with buffer to become the place to store, and a pointer to judge if the buffer is empty or not
 class Token_stream {
 	bool full;    // is there a Token in the buffer?
 	Token buffer; // here is where we keep a Token put back using putback()
@@ -57,7 +57,7 @@ double declaration();
 
 double primary();
 double middle();
-double term();  // 处理 * 和 /
+double term();  // deal with * and /
 double expression();
 
 double statement();
