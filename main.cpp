@@ -18,7 +18,7 @@ try {		// predefine names:
 		<<"		e(2.78) for you"<<endl
 		<<"		9.You need to enter a ';' behind the expression to print the "<<endl
 		<<"		result"<<endl;
-	cout<<"Anyway,it's a not too bad calcutor,try to use it :"<<endl<<endl;
+	cout<<"Anyway,it's not a too bad calcutor,try to use it :"<<endl<<endl;
 	define_name("pi",3.1415926535);
 	define_name("e",2.7182818284);
 	calculate();
